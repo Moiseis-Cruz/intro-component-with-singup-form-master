@@ -8,4 +8,20 @@ main {
     align-items: center;
     background: var(--primary-color) url(../images/bg-intro-desktop.png) no-repeat center center;
     background-size: cover;
+    color: #f4f4f2;
 }
+
+.title {
+    /* background-color: aqua; */
+    font-size: 4.5rem;
+    width: 400px;
+    font-weight: 800;
+}
+
+.description {
+    /* background-color: burlywood; */
+    width: 500px;
+    /* font-weight: 600; */
+    margin-top: 15px;
+}
+
