@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     color: var(--primary-color);
     background-color: black;
+    display: inline-block;
 }
 
 input {
