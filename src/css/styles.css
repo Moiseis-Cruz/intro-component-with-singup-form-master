@@ -30,7 +30,7 @@ main {
 form {
     background-color: #ffffff;
     max-width: 520px;
-    padding: 20px 40px;
+    padding: 40px;
 }
 
 form .form-control {
@@ -38,9 +38,19 @@ form .form-control {
     position: relative;
 }
 
+form .form-control input {
+    padding: 10px 20px;
+    border: 1px solid var(--secundary-neutral);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
 form .form-control .error {
     position: absolute;
+    top: 0;
     right: 0;
+    padding: 10px;
 }
 
 .conditions {
