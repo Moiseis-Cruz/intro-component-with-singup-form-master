@@ -12,9 +12,10 @@ main {
 }
 
 .title {
-    font-size: 4.5rem;
-    width: 400px;
-    font-weight: 800;
+    font-size: 5rem;
+    width: 450px;
+    line-height: 52px;
+    font-weight: 600;
 }
 
 .description {
@@ -27,5 +28,21 @@ main {
 }
 
 form {
-    background-color: aquamarine;
+    background-color: #ffffff;
+    max-width: 520px;
+    padding: 20px 40px;
+}
+
+form .form-control {
+    background-color: grey;
+    position: relative;
+}
+
+form .form-control .error {
+    position: absolute;
+    right: 0;
+}
+
+.conditions {
+    background-color: blue;
 }
