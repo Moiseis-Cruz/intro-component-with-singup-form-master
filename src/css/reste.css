@@ -22,3 +22,7 @@ a {
     color: var(--primary-color);
     background-color: black;
 }
+
+input {
+    width: 100%;
+}

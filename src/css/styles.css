@@ -22,3 +22,10 @@ main {
     margin-top: 15px;
 }
 
+.container {
+    background-color: burlywood;
+}
+
+form {
+    background-color: aquamarine;
+}
