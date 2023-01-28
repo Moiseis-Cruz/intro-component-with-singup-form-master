@@ -33,7 +33,7 @@ main {
 
 form {
     background-color: #ffffff;
-    max-width: 520px;
+    width: 520px;
     padding: 40px;
     border-radius: 10px;
     margin-top: 30px;
@@ -83,10 +83,13 @@ form .form-control .error {
     padding: 15px;
     border-radius: 10px;
     font-weight: 700;
-    box-shadow: 0 5px 5px var(--secundary-color);
+    box-shadow: 0 5px 10px var(--secundary-color);
 }
 
 .conditions {
-    background-color: blue;
-    /* font-size: 1rem; */
+    /* background-color: blue; */
+    color: var(--secundary-neutral);
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
 }
