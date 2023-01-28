@@ -40,8 +40,9 @@ form {
 }
 
 form .form-control {
-    background-color: grey;
+    /* background-color: grey; */
     position: relative;
+    margin-bottom: 10px;
 }
 
 .btn-buy {
@@ -88,4 +89,5 @@ form .form-control .error {
 
 .conditions {
     background-color: blue;
+    font-size: 1rem;
 }
