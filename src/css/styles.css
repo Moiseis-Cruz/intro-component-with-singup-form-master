@@ -35,6 +35,8 @@ form {
     background-color: #ffffff;
     max-width: 520px;
     padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
 }
 
 form .form-control {
@@ -44,8 +46,18 @@ form .form-control {
 
 .btn-buy {
     background-color: var(--accent-color);
-    width: 440px;
-    padding: 20px;
+    width: 520px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 0 10px 3px var(--primary-neutral);
+}
+
+span {
+    font-weight: 800;
 }
 
 form .form-control input {
@@ -53,7 +65,7 @@ form .form-control input {
     border: 1px solid var(--secundary-neutral);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 form .form-control .error {
@@ -61,6 +73,17 @@ form .form-control .error {
     top: 0;
     right: 0;
     padding: 10px;
+}
+
+.btn-claim {
+    background-color: var(--secundary-color);
+    color: #ffffff;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0 5px 5px var(--secundary-color);
 }
 
 .conditions {
