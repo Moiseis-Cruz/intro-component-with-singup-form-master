@@ -27,3 +27,8 @@ a {
 input {
     width: 100%;
 }
+
+small {
+    visibility: hidden;
+    color: blue;
+}
