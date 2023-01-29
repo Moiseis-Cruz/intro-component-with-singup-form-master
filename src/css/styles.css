@@ -7,8 +7,6 @@ main {
     justify-content: center;
     align-items: center;
     gap: 70px;
-    background: var(--primary-color) url(../images/bg-intro-desktop.png) no-repeat center center;
-    background-size: cover;
     color: #f4f4f2;
 }
 

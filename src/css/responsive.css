@@ -1,4 +1,9 @@
 @media (max-width: 740px) {
+    body {
+        background: var(--primary-color) url(../images/bg-intro-mobile.png) no-repeat center center;
+        background-size: contain;
+    }
+
     main {
         width: 100%;
         min-height: 100vh;
@@ -6,8 +11,6 @@
         justify-content: center;
         align-items: center;
         gap: 70px;
-        background: var(--primary-color) url(../images/bg-intro-mobile.png) no-repeat center center;
-        background-size: contain;
         color: #f4f4f2;
         flex-direction: column;
     }
