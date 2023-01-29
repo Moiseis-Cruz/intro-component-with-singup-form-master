@@ -109,6 +109,6 @@ form .form-control .error {
     background-color: blue;
     color: var(--secundary-neutral);
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
 }
