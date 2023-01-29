@@ -13,15 +13,13 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     max-width: 1440px;
-    min-width: 375px;
-    height: auto;
+    min-height: 100vh;
     margin: auto;
 }
 
 a {
     text-decoration: none;
     color: var(--primary-color);
-    /* background-color: black; */
     display: inline-block;
 }
 
