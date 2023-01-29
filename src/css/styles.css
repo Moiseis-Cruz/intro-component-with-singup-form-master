@@ -11,23 +11,18 @@ main {
 }
 
 .container-descrition {
-    background-color: darkgrey;
     min-width: 320px;
     max-width: 520px;
 }
 
 .title {
     font-size: 5rem;
-    /* width: 500px; */
     width: 100%;
-    background-color: burlywood;
-    /* line-height: 52px; */
     font-weight: 600;
 }
 
 .description {
     width: 100%;
-    background-color: aqua;
     margin-top: 15px;
 }
 
@@ -39,7 +34,6 @@ main {
     min-width: 320px;
     max-width: 520px;
     width: 520px;
-    background-color: chartreuse;
 }
 
 form {
@@ -60,9 +54,6 @@ form .form-control {
 
 .btn-buy {
     background-color: var(--accent-color);
-    /* width: 520px; */
-    /* min-width: 320px; */
-    /* max-width: 520px; */
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
@@ -70,7 +61,7 @@ form .form-control {
     color: #ffffff;
     font-weight: 400;
     border-radius: 10px;
-    box-shadow: 0 10px 3px var(--primary-neutral);
+    box-shadow: 0 8px 2px hsla(249, 10%, 26%, 0.295);
 }
 
 span {
@@ -100,7 +91,7 @@ form .form-control .error {
     padding: 15px;
     border-radius: 10px;
     font-weight: 700;
-    box-shadow: 0 5px 10px var(--secundary-color);
+    box-shadow: 0 5px 2px hsl(154, 58%, 43%);
 }
 
 .conditions {
