@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     margin: auto;
     background: var(--primary-color) url(../images/bg-intro-desktop.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
 }
 
 a {
