@@ -88,6 +88,14 @@ form .form-control i {
     box-shadow: 0 5px 2px hsl(154, 58%, 43%);
 }
 
+.btn-claim:hover {
+    cursor: pointer;
+}
+
+.btn-claim:active {
+    opacity: 0.8;
+}
+
 .conditions {
     color: var(--secundary-neutral);
     margin-top: 10px;
