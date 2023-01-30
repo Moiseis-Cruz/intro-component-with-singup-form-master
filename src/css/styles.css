@@ -8,6 +8,7 @@ main {
     align-items: center;
     gap: 70px;
     color: #f4f4f2;
+    padding: 10px;
 }
 
 .container-descrition {
@@ -27,10 +28,6 @@ main {
 }
 
 .container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     min-width: 320px;
     max-width: 520px;
     width: 520px;
@@ -92,7 +89,6 @@ form .form-control i {
 }
 
 .conditions {
-    background-color: blue;
     color: var(--secundary-neutral);
     margin-top: 10px;
     font-size: 1.1rem;
