@@ -28,4 +28,8 @@
     .container {
         width: 320px;
     }
+
+    form .form-control input {
+        padding: 15px;
+    }
 }
