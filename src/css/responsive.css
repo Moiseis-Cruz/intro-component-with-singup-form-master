@@ -6,13 +6,6 @@
     }
 
     main {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 70px;
-        color: #f4f4f2;
         flex-direction: column;
     }
 
@@ -27,6 +20,10 @@
 
     .container {
         width: 320px;
+    }
+
+    form {
+        padding: 25px;
     }
 
     form .form-control input {
