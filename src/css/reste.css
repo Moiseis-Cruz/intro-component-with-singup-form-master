@@ -42,6 +42,10 @@ small {
     border: 1px solid var(--primary-color);
 }
 
+.form-control.error i .error {
+    visibility: visible;
+}
+
 .form-control.error small {
     visibility: visible;
 }
