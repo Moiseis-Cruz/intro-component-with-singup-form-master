@@ -47,7 +47,23 @@ function checkInputs() {
         successValidation(userName)
     }
 
-    
+    if(lastNameValue === ""){
+        errorValidation(lastName, "Testando!")
+    }else{
+        successValidation(lastName)
+    }
+
+    if(emailValue === ""){
+        errorValidation(email)
+    }else{
+        successValidation(email)
+    }
+
+    if(passwordValue === ""){
+        errorValidation(password)
+    }else{
+        successValidation(password)
+    }
 }
 
 function errorValidation(input, message) {
