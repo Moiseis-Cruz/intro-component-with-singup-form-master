@@ -67,6 +67,10 @@ form .form-control input {
     border-radius: 5px;
 }
 
+form .form-control input:focus {
+    border: 1px solid var(--primary-neutral);
+}
+
 form .form-control i {
     position: absolute;
     top: 0;
