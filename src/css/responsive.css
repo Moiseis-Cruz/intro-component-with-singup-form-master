@@ -1,4 +1,4 @@
-@media (max-width: 740px) {
+@media (max-width: 768px) {
     body {
         background: var(--primary-color) url(../images/bg-intro-mobile.png) no-repeat center center;
         background-size: cover;
