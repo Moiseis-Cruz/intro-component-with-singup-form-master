@@ -45,7 +45,8 @@ form {
 
 form .form-control {
     position: relative;
-    height: 77px;
+    margin-bottom: 20px;
+    /* height: 77px; */
 }
 
 .btn-buy {
