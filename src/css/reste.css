@@ -30,14 +30,11 @@ input {
 }
 
 small {
-    /* visibility: hidden; */
     display: none;
     text-align: right;
-    /* position: absolute; */
     bottom: 10px;
     left: 0;
     width: 100%;
-    /* display: inline-block; */
     color: var(--primary-color);
     font-size: 1rem;
 }
@@ -51,6 +48,5 @@ small {
 }
 
 .form-control.error small {
-    /* visibility: visible; */
     display: block;
 }
