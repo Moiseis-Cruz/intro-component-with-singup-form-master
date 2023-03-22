@@ -62,14 +62,6 @@ function successValidation(input) {
 }*/
 
 
-
-
-
-
-
-
-
-
 let enviarFomrulario = document.querySelector("button[class='btn-claim']")
 
 let userName = document.getElementById("name");
