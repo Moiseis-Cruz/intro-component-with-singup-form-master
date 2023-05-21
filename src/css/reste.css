@@ -40,11 +40,11 @@ small {
 }
 
 .form-control.error input {
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
-.form-control.error i .error {
-    visibility: visible;
+.form-control.error i {
+    display: block;
 }
 
 .form-control.error small {
